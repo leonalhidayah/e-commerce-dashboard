@@ -75,7 +75,7 @@ def create_rfm_df(df: pd.DataFrame) -> pd.DataFrame:
         },
         inplace=True,
     )
-    rfm_df["customer_label_id"] = "C" + np.arange(len(rfm_df)).astype(str)
+    rfm_df["customer_label_id"] = "C" + pd.Series(np.arange(95420).astype(str))
 
     return rfm_df
 
