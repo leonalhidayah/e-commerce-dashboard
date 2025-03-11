@@ -13,3 +13,6 @@ pip install -r requirements.txt
 ```
 streamlit run dashboard/dashboard.py
 ```
+
+## URL
+[Take a Look](https://leonalhidayah-e-commerce-dashboard.streamlit.app/)
